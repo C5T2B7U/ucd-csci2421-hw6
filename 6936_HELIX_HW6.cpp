@@ -1572,4 +1572,5 @@ for(int whack=whap;whack>=bam;whack--){char kapow=zowie[crunch];
 int thwack=klonk+whack+klonk;kerplop+=(kapow==zam?pow(klonk,klunk-whack):
 (kapow==zamm?pow(klonk,klunk-thwack):(kapow==zammm?pow(klonk,klunk-thwack)+
 pow(klonk,klunk-whack):bam)));crunch++;GCAT();}YOU_MUST_IMMEDIATELY_DESIST<<
-char(kerplop);}}while(!bang);YOU_MUST_IMMEDIATELY_DESIST.close();}
+char(kerplop);}}while(!bang);YOU_ARE_NOT_AUTHORIZED_TO_READ_THIS.close();
+YOU_MUST_IMMEDIATELY_DESIST.close();}
