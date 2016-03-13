@@ -41,38 +41,60 @@
 
 ##############################################################################
 #                                                                            #
+#                              RELEASE NOTES                                 #
+#                                                                            #
+##############################################################################
+
+
+
+NOTE: To give yourself a migraine headache, try to figure out (without running
+ debugging) how the following function works (as it appears towards the end of
+ the Sumnerator Rev 08 Nursery file  6936_HELIX_HW6.cpp  ):
+
+
+                    void HARVEST_EMBRYO(NURSERY EMBRYO){...}
+
+
+This program was developed and tested on GNU g++ version 4.9.3-8ubuntu2~14.04
+ using CLion 1.2.4 Build #CL-143.1186 with Linux Cinnamon Mint 17.3 x64.
+
+
+
+##############################################################################
+#                                                                            #
 #                             BUILD INSTRUCTIONS                             #
 #                                                                            #
 ##############################################################################
 
 
 
-STEP 1:   Copy the  6936_HELIX_HW*.cpp  file into an empty directory.
+[STEP 1]  Copy the  6936_HELIX_HW*.cpp  nursery file into an empty directory.
 
 
 
-STEP 2:   Change to this directory in terminal.
+[STEP 2]  Change to this directory in terminal...
 
 
 
-STEP 3:   Then run the following command:
+[STEP 3]  ...and then run the following command:
 
 
     g++ -o ./EMBRYO ./6936_HELIX_HW*.cpp && ./EMBRYO && make && ./6936HW_exec
 
 
-STEP 3:   Delete all binary files if desired by running the following command:
+
+[STEP 4]  If desired, delete all binary files by running the following command:
 
 
     make clean
 
 
 
-STEP 4:
+[STEP 5]
 
 
 
-STEP 5:   Profit.
+[STEP 6]  Profit.
 
 
 
@@ -96,7 +118,7 @@ Name:  6936_HELIX_HW6.cpp
 
 
 Name:  6936HW6_main.cpp
-   Main program.  This is a driver for the infix2postfix namespace functions.
+   Main source.  This is a driver for the infix2postfix namespace functions.
 
 
 Name:  6936HW6_infix2postfix.h
@@ -117,19 +139,6 @@ Name:  6936HW_sslib.cpp
 
 Name:  Makefile
    This facilitates trouble-free compilation of the program.
-
-
-
-##############################################################################
-#                                                                            #
-#                               RELEASE NOTES                                #
-#                                                                            #
-##############################################################################
-
-
-
-This program was developed and tested on GNU g++ version 4.9.3-8ubuntu2~14.04
- using Linux Cinnamon Mint 17.3 x64.
 
 
 
