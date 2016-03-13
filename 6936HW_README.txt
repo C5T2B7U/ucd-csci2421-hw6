@@ -1,2 +1,0 @@
-# ucd-csci2421-hw6
-RESTRICTED ACCESS!!!
